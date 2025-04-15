@@ -1,1 +1,15 @@
-{\rtf1}
+/*Sidebar*/
+.platform-win .sidebar_c48ade {
+  border-radius: var(--radius-xsa) 0 0 var(--radius-xsa);
+}
+.visual-refresh .sidebar_c48ade {
+  background: transparent;
+  border-radius: 0;
+}
+.visual-refresh .sidebar_c48ade[data-collapsed=true] {
+  width: 70px !important;
+}
+
+:root {
+  --custom-guild-list-width: 70px;
+}
